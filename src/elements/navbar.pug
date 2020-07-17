@@ -1,0 +1,24 @@
+// Start Navbar
+nav.navbar.navbar-expand-lg.navbar-dark
+    .container
+        a(href="#").navbar-brand
+            img(src="./img/logo_small.png", 
+                alt="logo small")
+        button(type="button", data-toggle="collapse", 
+            data-target="#navbarNav", aria-controls
+            ="navbarNav", aria-expanded
+            ="false", aria-label
+            ="Toggle navigation").navbar-toggler
+            span.navbar-toggler-icon
+        .collapse.navbar-collapse#navbarNav
+            ul.navbar-nav.text-uppercase.mx-auto
+                li.nav-item.active
+                    a(href="#").nav-link Home
+                li.nav-item
+                    a(href="#").nav-link Category
+                li.nav-item
+                    a(href="#").nav-link Designer
+                li.nav-item
+                    a(href="#").nav-link About
+            a(href="#").nav-link.text-white #[i.fas.fa-shopping-cart] My Cart (#[span 12])
+// End Navbar
