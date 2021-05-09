@@ -18,7 +18,7 @@
         "css-loader": "^3.6.0",
         "extract-loader": "^5.1.0",
         "file-loader": "^6.0.0",
-        "handlebars": "^4.7.6",
+        "handlebars": "^4.7.7",
         "html-loader": "^1.1.0",
         "html-webpack-plugin": "^4.3.0",
         "mini-css-extract-plugin": "^0.9.0",
